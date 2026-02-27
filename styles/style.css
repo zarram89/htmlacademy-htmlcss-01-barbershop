@@ -1,0 +1,352 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-regular.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/pt-sans-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-bold-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+/* PT Sans Narrow */
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/pt-sans-narrow-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #242424;
+  background-color: #fbf7f4;
+}
+
+/* Button */
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+/* Button-Light */
+.button-light {
+  color: #242424;
+  background-color: #ffffff;
+}
+
+/* Pages */
+.page-header {
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.navigation-link {
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 22px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  background-color: #000000;
+}
+
+.main-index {
+  color: #ffffff;
+  background-color: #000000;
+  background-image: url("images/index-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+/* List */
+.advantages-list {
+  text-align: center;
+}
+
+/* Title */
+.advantages-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+/* Index columns */
+.index-columns {
+  color: #242424;
+  background-color: #fbf7f4;
+  background-image: url("../images/bg-noisy.png");
+  background-repeat: repeat;
+}
+
+/* Services */
+.services {
+  text-transform: uppercase;
+}
+
+/* Title */
+.services-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+/* Price */
+.services-list {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.services-price {
+  color: #af7842;
+}
+
+/* Gallery */
+/* Title */
+.gallery-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+/* Contacts */
+.contacts {
+  font-weight: 700;
+}
+
+/* Title */
+.contacts-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+/* Subtitle */
+.contacts-subtitle {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #af7842;
+}
+
+.contacts-address {
+  font-style: normal;
+}
+
+/* Phone */
+.contacts-phone {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #242424;
+}
+
+/* Appointment */
+/* Title */
+.appointment-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+/* List */
+.appointment-form {
+  color: #595959;
+}
+
+/* Label */
+.form-label {
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #242424;
+}
+
+/* Footer */
+.page-footer {
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #242424;
+  background-image: url("../images/bg-noisy.png");
+  background-repeat: repeat;
+}
+
+.page-footer a {
+  color: #ffffff;
+}
+
+.page-footer .htmlacademy-link {
+  font-size: 14px;
+  color: #dbb590;
+}
+
+.page-footer-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.footer-contacts-address {
+  font-style: normal;
+}
+
+
+.footer-contacts-address p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.footer-contacts-address-phone {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.footer-contacts-map-link {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/* Catalog */
+.inner-header-title {
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 32px;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  color: #242424;
+}
+
+.breadcrumbs-link {
+  color: inherit;
+}
+
+/* Filter */
+.catalog-filter-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #242424;
+}
+
+/* Label (Control) */
+.control {
+  font-weight: 700;
+}
+
+.sorting-container {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* Cards */
+/* Item */
+.product-card {
+  background-color: #ffffff;
+}
+
+/* Link */
+.product-card-link {
+  text-decoration: none;
+}
+
+/* Title */
+.product-card-title {
+  font-weight: 700;
+  color: #242424;
+}
+
+/* Price */
+.product-card-price {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #814b18;
+}
+
+/* Pagination */
+/* Link */
+.pagination {
+  background-color: #ffffff;
+}
+
+.pagination-link {
+  font-weight: 700;
+  line-height: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+.pagination-current {
+  color: #242424;
+  background-color: #ffffff;
+}
+
+.pagination-disabled {
+  background-color: #595959;
+}
