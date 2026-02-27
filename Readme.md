@@ -4,7 +4,7 @@
 
 ## 🔗 Ссылки
 *   **Демо:** [Ссылка на GitHub Pages](https://zarram89.github.io/htmlacademy-htmlcss-01-barbershop/)
-*   **Макет в Figma:** [https://www.figma.com/design/fDZmhKaG2UoWWcWDWgxEYS/HTML-1---%D0%91%D0%B0%D1%80%D0%B1%D0%B5%D1%80%D1%88%D0%BE%D0%BF?node-id=0-202&t=vPcnC90c3cad6cui-1]
+*   **Макет в Figma:** [Ссылка на макет Figma «Барбершоп Бородинский»](https://www.figma.com/design/fDZmhKaG2UoWWcWDWgxEYS/HTML-1---%D0%91%D0%B0%D1%80%D0%B1%D0%B5%D1%80%D1%88%D0%BE%D0%BF?node-id=0-202&t=vPcnC90c3cad6cui-1)
 
 ## 🛠 Технологии и инструменты
 *   **HTML5:** Семантическая разметка (header, main, footer, section и т.д.).
