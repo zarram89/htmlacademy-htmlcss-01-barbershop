@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Каталог</title>
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
@@ -42,6 +43,7 @@
 </header>
 
 <main class="main-inner">
+  <!-- Шапка -->
   <header class="inner-header">
     <h1 class="inner-header-title">Каталог</h1>
     <ul class="breadcrumbs">
@@ -56,6 +58,7 @@
 
   <section class="catalog-products">
     <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+    <!-- Фильтрация -->
     <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
       <fieldset class="catalog-filter-group">
         <legend class="catalog-filter-title">Производители</legend>
@@ -126,17 +129,22 @@
       <button class="button" type="submit">Показать</button>
     </form>
 
-    <select class="select-control" aria-label="Сортировка">
-      <option value="popular">Сначала популярное</option>
-      <option value="cheap">Сначала дешёвое</option>
-      <option value="expensive">Сначала дорогое</option>
-    </select>
-    <a href="#" class="button button-light">
-      <span class="visually-hidden">Показать список</span>
-    </a>
-    <a class="button" href="#">
-      <span class="visually-hidden">Показать карточки</span>
-    </a>
+    <!-- Сортировка -->
+    <div class="sorting-container">
+      <select class="select-control" aria-label="Сортировка">
+        <option value="popular">Сначала популярное</option>
+        <option value="cheap">Сначала дешёвое</option>
+        <option value="expensive">Сначала дорогое</option>
+      </select>
+      <a href="#" class="button button-light">
+        <span class="visually-hidden">Показать список</span>
+      </a>
+      <a class="button" href="#">
+        <span class="visually-hidden">Показать карточки</span>
+      </a>
+    </div>
+
+    <!-- Список товаров -->
     <ul class="product-list">
       <li class="product-card">
         <a class="product-card-link" href="product.html">
@@ -222,7 +230,8 @@
 <footer class="page-footer">
   <section class="footer-contacts">
     <h2 class="visually-hidden">Контакты</h2>
-    <img class="footer-contacts-logo" src="images/logo-footer.svg" width="183" height="21" alt="Логотип Барбершоп «Бородинский»">
+    <img class="footer-contacts-logo" src="images/logo-footer.svg" width="183" height="21"
+         alt="Логотип Барбершоп «Бородинский»">
     <address class="footer-contacts-address">
       <p class="about-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
       <a class="footer-contacts-address-phone" href="tel:+78005558628">+7 800 555-86-28</a>
@@ -235,7 +244,8 @@
     <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
 
       <label for="newsletter-email">Email</label>
-      <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
+      <input class="field" placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email"
+             required>
 
       <button class="button newsletter-button" type="submit">
         <span class="visually-hidden">Отправить</span>
