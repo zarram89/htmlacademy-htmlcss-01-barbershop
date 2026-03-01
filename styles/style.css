@@ -55,6 +55,17 @@ body {
   background-color: #fbf7f4;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Button */
 .button {
   font-family: inherit;
@@ -102,6 +113,11 @@ body {
   margin-left: auto;
 }
 
+.navigation-user .navigation-link {
+  min-width: 16px;
+  min-height: 22px;
+}
+
 .navigation-link {
   font-family: "PT Sans Narrow", sans-serif;
   line-height: 22px;
@@ -115,6 +131,8 @@ body {
 
 .main-container {
   flex-grow: 1;
+  padding-top: 64px;
+  padding-bottom: 60px;
 }
 
 .main-index {
@@ -126,6 +144,7 @@ body {
 }
 
 .main-inner {
+  padding-top: 40px;
   color: #242424;
   background-color: #fbf7f4;
   background-image: url("../images/bg-noisy.png");
@@ -140,6 +159,12 @@ body {
 .logo {
   display: block;
   margin: 0 auto;
+  margin-bottom: 64px;
+}
+
+/* Advantages */
+.advantages {
+  margin-bottom: 58px;
 }
 
 /* List */
@@ -149,30 +174,44 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+  list-style: none;
   color: #ffffff;
 }
 
+/* Item */
 .advantages-item {
   width: 277px;
 }
 
 /* Title */
 .advantages-title {
+  margin-top: 0;
+  margin-bottom: 56px;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 32px;
   line-height: 35px;
   text-transform: uppercase;
 }
 
+/* Description */
+.advantages-description {
+  margin: 0;
+}
+
 /* Index columns */
 .index-columns {
   display: flex;
   justify-content: space-between;
-  padding: 0 40px;
+  margin-bottom: 32px;
+  padding: 40px;
   color: #242424;
   background-color: #fbf7f4;
   background-image: url("../images/bg-noisy.png");
   background-repeat: repeat;
+}
+
+.index-columns:last-child {
+  margin-bottom: 0;
 }
 
 /* Services */
@@ -183,6 +222,8 @@ body {
 
 /* Title */
 .services-title {
+  margin: 0;
+  margin-bottom: 28px;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -207,6 +248,8 @@ body {
 
 /* Title */
 .gallery-title {
+  margin: 0;
+  margin-bottom: 28px;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -222,6 +265,8 @@ body {
 
 /* Title */
 .contacts-title {
+  margin: 0;
+  margin-bottom: 28px;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -260,6 +305,8 @@ body {
 
 /* Title */
 .appointment-title {
+  margin: 0;
+  margin-bottom: 28px;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -294,6 +341,7 @@ body {
   display: flex;
   width: 940px;
   margin: 0 auto;
+  padding: 40px 0;
 }
 
 .page-footer a {
@@ -306,6 +354,8 @@ body {
 }
 
 .page-footer-title {
+  margin: 0;
+  margin-bottom: 14px;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -354,8 +404,29 @@ body {
   max-width: 190px;
 }
 
+.footer-social-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-social-item {
+  width: 56px;
+  height: 44px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+.footer-social-item:nth-child(3) {
+  margin-right: 0;
+}
+
 /* Catalog */
 .inner-header-title {
+  margin: 0;
+  margin-bottom: 16px;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 32px;
   line-height: 35px;
@@ -364,10 +435,15 @@ body {
 
 /* Breadcrumbs */
 .breadcrumbs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
   color: #242424;
 }
 
 .breadcrumbs-link {
+  margin-right: 32px;
   color: inherit;
 }
 
@@ -400,8 +476,23 @@ body {
 }
 
 .sorting-container {
+  display: flex;
+  margin-bottom: 16px;
+  padding: 16px;
   color: #000000;
   background-color: #ffffff;
+
+}
+
+.sorting-container .button {
+  width: 56px;
+  height: 44px;
+}
+
+.product-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 /* Cards */
@@ -431,17 +522,45 @@ body {
 }
 
 /* Pagination */
-/* Link */
-.pagination {
+.pagination-container {
+  display: flex;
+  padding: 16px;
   background-color: #ffffff;
 }
 
+/* Link */
+.pagination {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Item */
+.pagination-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 44px;
+  padding: 14px 20px;
   font-weight: 700;
   line-height: 16px;
   text-decoration: none;
   color: #ffffff;
   background-color: #000000;
+}
+
+/* Without background */
+.pagination-clear {
+  background-color: transparent;
+}
+
+.pagination-show-more {
+  margin-left: auto;
 }
 
 .pagination-current {
